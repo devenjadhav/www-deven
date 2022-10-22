@@ -1,0 +1,29 @@
+.content {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 1em;
+  font-size: large;
+  text-align: justify;
+}
+
+body {
+  background-color: #ede4e0;
+  font-family: "apple_garamondregular", Courier, monospace;
+}
+
+.assemble-pic {
+  text-align: left;
+  padding-top: 1em;
+}
+
+img {
+  width: 30em;
+}
+
+@font-face {
+  font-family: "apple_garamondregular";
+  src: url("/font/applegaramond-webfont.woff2") format("woff2"),
+    url("/font/applegaramond-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
